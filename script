@@ -1,5 +1,5 @@
 function main() {
-  var spreadsheetUrl = 'SHEET_URL'; // Make a copy of this spreadsheet, and replace the link with the one to your spreadsheet.
+  var spreadsheetUrl = 'https://docs.google.com/spreadsheets/d/17bb9jelnYEJboI-HFz52cMB59XjQ4v095tpxFacNayU/copy'; // Make a copy of this spreadsheet, and replace the link with the one to your spreadsheet.
   var sheetName = 'SHEET_TAB_NAME'; // Replace with the name of the sheet where you want the data to be dumped
   var spreadsheet = SpreadsheetApp.openByUrl(spreadsheetUrl);
   var sheet = spreadsheet.getSheetByName(sheetName);
